@@ -10,17 +10,17 @@ const userSchema = new mongoose.Schema({
     unique: true
   },
   password: {
-   type: String,
-   required: true,
-   minlength: 6,
- },
- image: {
-      type: String,
-    },
-    products: [{
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Product"
-    }],
+    type: String,
+    required: true,
+    minlength: 6,
+  },
+  image: {
+    type: String,
+  },
+  products: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Product"
+  }],
 },{ timestamps: true }); 
 
 const User = mongoose.model("User", userSchema);
