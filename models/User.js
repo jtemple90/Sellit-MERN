@@ -18,7 +18,7 @@ const userSchema = new mongoose.Schema({
       type: String,
     },
     products: [{
-      type: Mongoose.Schema.Types.ObjectId,
+      type: mongoose.Schema.Types.ObjectId,
       ref: "Product"
     }],
 },{ timestamps: true }); 

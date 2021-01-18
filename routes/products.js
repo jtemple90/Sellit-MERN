@@ -1,6 +1,5 @@
 const router = require("express").Router();
-const ctrl = require("../controllers/products");
-
+const ctrl = require('../controllers')
 // routes
 router.get("/", ctrl.products.index);
 router.get("/:id", ctrl.products.show);
