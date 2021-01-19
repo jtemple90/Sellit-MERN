@@ -1,22 +1,13 @@
-import React, {Component} from 'react';
-import './Navbar.css'
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  Container,
-  NavLink
-} from 'reactstrap';
+import React, { Component } from 'react';
+import './Navbar.css';
+
 
 class NavBar extends Component {
   render() {
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="#">Navbar</a>
+          <a className="navbar-brand brand" href="#">Sell It!</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

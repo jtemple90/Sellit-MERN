@@ -1,3 +1,6 @@
-.navlink {
-  display: flex;
+.brand {
+  font-size: 30px!important;
+}
+.nav {
+  background: none !important;
 }

@@ -1,6 +1,7 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Routes from './config/routes'
+import { BrowserRouter, Route, Link } from "react-router-dom";
+
 import './App.css';
 
 function App() {

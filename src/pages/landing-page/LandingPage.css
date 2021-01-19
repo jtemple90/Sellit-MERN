@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    height: 80vh;
+    border-radius: 5px;
+}
+.span {
+    font-size: 60px;
+}
+.circle {
+    height: 120vh;
+    position: absolute;
+    width: 50vw;
+    top: -10vh;
+    left: 60vw;
+    border-radius: 50%;
+    z-index: -2;
+    background-color: #E7D2FF;
+}
