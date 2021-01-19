@@ -6,11 +6,14 @@ import './LandingPage.css'
 const LandingPage = () => {
   return (
     <div>
-      <div className='container'>
+    <div className="row"></div>
+      <div className='container main'>
         <img className='col-lg-7 img' src={Main} />
-        <div className='col-lg-5 text-center mg-5'>
-          <h1>Welcome, to <br/><span className='span'>Sell It!</span></h1>
-          <button className='btn btn-primary'>Login</button>
+        <div className='col-lg-5 text-center mg-5 right-side'>
+          <h1 className='name text-left'>Sell It!</h1>
+          <a href="/login">
+            <button className='btn btn-primary'>Login</button>
+          </a>
           <p>No Account!<a href='/register'> Create an account here!</a></p>
         </div>
       </div>
