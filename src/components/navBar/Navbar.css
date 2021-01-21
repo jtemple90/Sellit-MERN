@@ -1,6 +1,16 @@
+
 .brand {
   font-size: 30px!important;
+  color: white!important;
 }
-.nav {
+.navigation {
   background: none !important;
+  text-emphasis-color: white!important;
+}
+.nav-link {
+  color: white!important;
+}
+.icon {
+  color: white!important;
+
 }

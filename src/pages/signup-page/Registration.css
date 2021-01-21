@@ -2,23 +2,28 @@ h2 {
   padding-top: 10%;
   font-size: 50px;
 }
-.login-page {
-  background-color:#e5e7ed
-}
 .login-page main {
   width:100%;
   max-width:460px;
-  margin:8% auto 5%
+  margin:8% auto 5%;
 }
 .login-block {
   
   background-color:#fff;
-  padding:60px;
-  padding-top: 150px;
+  display: block;
+  align-content: center;
+  justify-content: center;
+
+  /* padding:60px;
+  padding-top: 150px; */
   -webkit-box-shadow:0 3px 50px 0 rgba(0,0,0,.1);
-  box-shadow:0 3px 50px 0 rgba(0,0,0,.1);
+  box-shadow:1 3px 50px 0 rgba(0,0,0,.1);
+  display: block;
   text-align:center;
-  border-radius:5px
+  justify-content: center;
+  border-radius:5px;
+  width: 80%;
+  height: 50vh;
 }
 .login-block h1,.login-block h6 {
   font-family:Open Sans,sans-serif;
