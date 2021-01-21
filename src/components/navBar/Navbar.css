@@ -1,16 +1,40 @@
 
 .brand {
   font-size: 30px!important;
-  color: white!important;
+  color:#FA686B!important;
+   text-shadow: 1px 1px 1px black;
 }
 .navigation {
   background: none !important;
-  text-emphasis-color: white!important;
+  text-emphasis-color: #FA686B!important;
 }
 .nav-link {
   color: white!important;
 }
+.nav-link:hover {
+  color: #FA686B!important;
+  text-shadow: 1px 1px 3px  rgba(46, 46, 46, 0.7);
+}
 .icon {
   color: white!important;
 
+}
+.btn2 {
+  border: none;
+  outline: none;
+} 
+.btn2:hover {
+  border: 1px solid #FA686B!important;
+  text-shadow: 1px 1px 1px #161238;
+  box-shadow: 2px 2px 4px black, 2px 2px 4px black;
+} 
+.submit1 {
+  outline: none;
+  border: 1px solid #FA686B;
+  background: rgb(255, 255, 255)!important;
+}
+.submit1 {
+  outline: none;
+  border: 1px solid #FA686B;
+  background: rgba(128, 128, 128, 0.397)!important;
 }

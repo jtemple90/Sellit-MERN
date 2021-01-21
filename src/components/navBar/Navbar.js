@@ -39,12 +39,12 @@ class NavBar extends Component {
               </ul>
               <form className="form-inline my-2 my-lg-0">
                 <input
-                  className="form-control mr-sm-2"
+                  className="submit1 form-control mr-sm-2"
                   type="search"
                   placeholder="Search"
                 />
                 <button
-                  className="btn btn-outline-primary my-2 my-sm-0"
+                  className="btn2 btn btn-outline-primary my-2 my-sm-0"
                   type="submit"
                 >
                   Search

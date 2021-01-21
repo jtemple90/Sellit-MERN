@@ -28,14 +28,25 @@
   color: white;
   font-size: 20px!important;
 }
+.link:hover {
+  color: #FA686B!important;
+  text-shadow: 1px 1px 2px #161238;
+  text-decoration: none;
+  font-weight: 520;
+}
 
 .btn {
   margin-bottom: 10px;
   background-color: transparent;
   color: white!important;
+  border:  #F78C67 .5px solid !important;
 }
 .btn:hover {
   background-color: #F78C67!important;
+  text-shadow: 1px 1px 2px #161238;
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 4px black, 1px 1px 4px black;
 }
 p {
   color: white;
@@ -45,4 +56,8 @@ p {
   color: white;
   text-shadow: 1px 1px 2px #F78C67;
   font-size: 120px;
+}
+.register-link:hover {
+  text-decoration: none;
+  color: #F78C67;
 }

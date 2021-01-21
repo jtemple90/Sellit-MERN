@@ -21,20 +21,20 @@ const LandingPage = () => {
             <input
               className="form-control"
               type="search"
-              placeholder="Search"
+              placeholder="Search..."
             />
             <button
-              className="btn btn-outline-primary ml-1 my-2 my-sm-0"
+              className="btn2 btn btn-outline-primary ml-1 my-2 my-sm-0"
               type="submit"
             >
               Search
             </button>
           </form>
           <a href="/login">
-            <button className="btn btn-primary">Login</button>
+            <button className="btn btn btn-primary btn-outline-none">Login</button>
           </a>
           <p>
-            No Account!<a href="/register"> Create an account here!</a>
+            No Account!<a className='register-link' href="/register"> Create an account here!</a>
           </p>
         </div>
       </div>
