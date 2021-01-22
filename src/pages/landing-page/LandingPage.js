@@ -1,6 +1,4 @@
 import React from "react"
-import Main from '../.././images/19198999.jpg'
-import Logo from '../.././images/1.png'
 import './LandingPage.css'
 import Background from "../.././images/3398605.jpg";
 
@@ -19,7 +17,7 @@ const LandingPage = () => {
           <h1 className='logo'>Sell It!</h1>
           <form className="form-inline my-2 my-lg-0 mb-lg-4 justify-content-center">
             <input
-              className="form-control"
+              className="form-control input"
               type="search"
               placeholder="Search..."
             />
@@ -31,7 +29,7 @@ const LandingPage = () => {
             </button>
           </form>
           <a href="/login">
-            <button className="btn btn btn-primary btn-outline-none">Login</button>
+            <button className="btn2 btn btn-primary b-outline-none">Login</button>
           </a>
           <p>
             No Account!<a className='register-link' href="/register"> Create an account here!</a>

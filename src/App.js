@@ -8,9 +8,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    <div className='background-img' style={{ backgroundImage: `url(${Background})`}}>
      { Routes }
-    </div>
     </div>
   );
 }

@@ -35,13 +35,13 @@
   font-weight: 520;
 }
 
-.btn {
+.btn2 {
   margin-bottom: 10px;
   background-color: transparent;
   color: white!important;
   border:  #F78C67 .5px solid !important;
 }
-.btn:hover {
+.btn2:hover {
   background-color: #F78C67!important;
   text-shadow: 1px 1px 2px #161238;
   outline: none;
@@ -50,6 +50,9 @@
 }
 p {
   color: white;
+}
+.input {
+  width: 300px;
 }
 .logo {
   padding: 5%;

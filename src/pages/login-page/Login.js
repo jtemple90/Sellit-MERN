@@ -8,7 +8,7 @@ const Login = () => {
       <Navbar/>
         <div className="global-container">
 	<div className="card login-form">
-	<div className="card-body">
+	<div className="card-body mt-2">
 		<h3 className="card-title text-center">Log in to <span className='name'>Sell It!</span></h3>
 		<div className="card-text">
 			{/* <div className="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> */}

@@ -1,0 +1,53 @@
+.card {
+  margin: 30vh 20px 20px 20px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  min-height: 250px;
+  max-height: 400px;
+  max-width: 800px;
+
+}
+#root > div > div > div.card.center {
+  height: 400px;
+  min-width: 350px;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.img {
+  border-radius: 50%;
+  height: 25vh;
+  border: 8px solid #FA686B;
+  transform: translateY(-100px);
+  justify-content: center;
+  align-content: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0), -2px -2px 10px rgba(0, 0, 0);
+}
+#root > div > div {
+  display: flex;
+  justify-content: center;
+  
+}
+.column {
+  flex: 1;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+/* .details-container {
+    flex: 2;
+}
+
+.avatar-container {
+    flex: 1;
+    
+} */

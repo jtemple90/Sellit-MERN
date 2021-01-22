@@ -8,7 +8,7 @@ class NavBar extends Component {
     return (
       <div className="navigation">
         <Route>
-          <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+          <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
             <a className="navbar-brand brand" href="/">
               Sell It!
             </a>
@@ -39,7 +39,7 @@ class NavBar extends Component {
               </ul>
               <form className="form-inline my-2 my-lg-0">
                 <input
-                  className="submit1 form-control mr-sm-2"
+                  className="sumbit1 form-control mr-sm-2"
                   type="search"
                   placeholder="Search"
                 />

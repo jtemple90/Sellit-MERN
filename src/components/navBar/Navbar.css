@@ -5,20 +5,22 @@
    text-shadow: 1px 1px 1px black;
 }
 .navigation {
-  background: none !important;
+  background: #191339 !important;
   text-emphasis-color: #FA686B!important;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 100;
 }
 .nav-link {
   color: white!important;
+  /* width: 90px; */
 }
 .nav-link:hover {
   color: #FA686B!important;
   text-shadow: 1px 1px 3px  rgba(46, 46, 46, 0.7);
 }
-.icon {
-  color: white!important;
 
-}
 .btn2 {
   border: none;
   outline: none;
